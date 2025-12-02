@@ -1,0 +1,86 @@
+/*1.universal selector
+*{
+    border:1px solid red;
+}*/
+/* 2.tag selector
+h1{
+    background-color: green;
+}*/
+/* 3.id selector*/
+/* #a{
+    color: red;
+    background-color: yellow;
+}
+/* 4.class selector*/
+/* .b{
+    color: blue;
+    border: 10px solid;
+}; */
+/* 5.grouping selector*/
+h2, h2{
+    color: blueviolet;
+}
+/* 6.descendant selector
+div p{
+    color: red;
+    background-color: yellow;
+}*/
+/*7.child selector*/
+div p{
+    color: blue;
+    background-color: pink;
+}
+/* 8.attribute selector
+button[type="submit"]{
+    color: red;
+    font-size: 30px;
+} */
+
+
+/*pseudo-element ::*/
+/* 9.pseudo-class :*/
+/* li:nth-child(2){
+    color: red;
+    font-size: 20px;
+}
+
+li:hover{
+    color: yellow;
+    background-color: red;
+    font-size: 32px;
+}
+/*written by css*/
+/* #r::before{
+    content: "written by css";
+}
+
+.b::first-letter{
+    color: red;
+    font-size: 48px;
+}
+
+#q{
+    display: block;
+} 
+
+#q::first-letter{
+    font-size: 90px;
+}
+
+#q::first-line{
+    color: brown;
+    font-size: 30px;
+} */
+
+/* padding */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*box model*/
+h1:nth-child(1){
+    border: 3px solid red;
+    /* padding: 30px;
+    padding:10px 20px 40px 50px;
+    margin: 20px; */
+}
