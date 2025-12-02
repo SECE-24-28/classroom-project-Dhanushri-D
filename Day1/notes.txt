@@ -1,0 +1,17 @@
+day 1:
+git commands:
+git config
+git log
+git checkout
+git stash
+
+
+html basics:
+
+block level
+inline
+semantic
+non semantic
+iframe
+action 
+validation
