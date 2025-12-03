@@ -1,0 +1,93 @@
+#h1{
+    text-align: center;
+}
+.flexContainer1{
+    border: 3px solid gainsboro;
+    display: flex;/*make inline*/
+    height: 8vh;
+    gap: 5px;
+    padding: 10px;
+    
+}
+.flexItem1{
+    background-color: rgb(114, 207, 235);
+    border: 2px solid gainsboro;
+    color:black;
+    padding: 5px;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+}
+.flexContainer2{
+    border: 3px solid gainsboro;
+    height: 10vh;
+    gap: 5px;
+    padding: 10px;
+}
+.flexItem2{
+    background-color: rgb(114, 207, 235);
+    border: 2px solid gainsboro;
+    color:black;
+    font-size: 24px;
+    text-align: center;
+}
+.fc3{
+    border: 3px solid gainsboro;
+    display: flex;
+    height: 10vh;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.fi3{
+    background-color: rgb(114, 207, 235);
+    border: 2px solid gainsboro;
+    color:black;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+}
+.fc4{
+    border: 3px solid gainsboro;
+    display: flex;
+    height: 8vh;
+    gap: 5px;
+    padding: 5px;
+}
+.fi4{
+    background-color: rgb(114, 207, 235);
+    border: 2px solid gainsboro;
+    color:black;
+    padding: 5px;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+}
+.fi4:nth-child(3){
+    order:-1;
+}
+.fc5{
+    border: 3px solid gainsboro;
+    display: flex;
+    height: 20vh;
+    gap: 5px;
+    padding: 5px;
+}
+.fi5{
+    background-color: rgb(114, 207, 235);
+    border: 2px solid gainsboro;
+    color:black;
+    padding: 5px;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+}
+.fi5:nth-child(2){
+    align-self: center;
+}
+.fi5:nth-child(3){
+    align-self: end;
+}

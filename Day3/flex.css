@@ -1,0 +1,44 @@
+.flexContainer{
+    border: 3px solid red;
+    display: flex;/*make inline*/
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-end; */
+    /* flex-wrap:wrap; */
+    /* align-content: center; */
+
+}
+/*
+values of justify content:
+flex-start,center,space-around,space-between,space-space-evenly
+*/
+/*
+values of flex-direction
+row,row-reverse,column,column-reverse
+*/
+/*
+values of align-items
+flex-start,flex-end,base,baseline
+*/
+.flexItem{
+    background-color: yellow;
+    border: 2px solid red;
+    color: red;
+    font-size: 24px;
+    height: 60px;
+    width: 80px;
+}
+.flexItem:nth-child(1){
+    order:1;/*place 1st item in last because bydefault all has val=0 to last>0 to first<0*/
+    /* align-self: center; */
+}
+
+.flexItem:nth-child(6){
+    order:-1;/*place 1st item in last because bydefault all has val=0 to last>0 to first<0*/
+    /* align-self: flex-end; */
+    align-self: flex-end;
+}

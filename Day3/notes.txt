@@ -1,0 +1,23 @@
+flex box:
+    main axis:
+        horizontal
+    cross axis:
+        vertical
+
+in display:flex bloxk->inline
+
+(main axis)justify-content:flex-start,end,..,flex-end(vertical end)  to move horizontal
+
+ default value:flex-start
+
+(cross axis)align-items: center move vertically
+
+gap: spacing between items
+
+flex-direction: row  default(1-6),row-reverse(6-1),column(item in column,main top to bottom)
+
+flex-flow:column,wrap
+
+
+GRID:
+create 2D layouts
