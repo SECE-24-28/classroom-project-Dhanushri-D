@@ -1,74 +1,61 @@
 body{
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: auto 1fr auto;
-    grid-template-areas: "head head head" "navbar mainContent Aside" "Footer Footer Footer";
+    background-color:gainsboro;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: auto 1fr;
+    grid-template-areas: "header header" "nav main";
 }
 header{
-    grid-area:head;
-    background-color:rgb(36, 43, 232);
+    grid-area:header;
+    background-color:blue;
     text-align: center;
     color:white;
-    padding:60px 10px;
-    font-size: 32px;
+    padding:20px;
+    font-size: 30px;
 }
-
 nav{
-    grid-area:navbar;
-    background-color:rgb(13, 14, 13);
-    color:yellow;
-    border:1px solid;
-}
-main{
-    grid-area: mainContent;
-    background-color:yellow;
-    color:red;
-    border:1px solid;
-}
-aside{
-    grid-area: Aside;
-    background-color: blue;
-    color: green;
-    border: 1px solid;
-}
-footer{
-    grid-area:Footer;
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: 32px;
-}
-.flexItem{
-    background-color: yellow;
-    border: 2px solid red;
-    color: red;
-    font-size: 20px;
-    height: 100px;
-    width: 100px;
-    margin: 20px;
-}
-header.hover{
-    transform:translateY(10px);
-    /*translorm:translateX(10px)*/
-}
-
-
-
-
-
-/* .top{
-    background-color: blueviolet;   
-    color: white;
+    grid-area:nav;
+    background-color:black;
+    color:white;
     padding: 20px;
 }
-#h1{
+nav h2{
+    margin-top: 0;
+    font-size: 20px;
+}
+nav menu{
+    padding: 10px 5px;
+    font-size: 10px;
+}
+main{
+    grid-area: main;
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:30px;
+    margin-top: 20px;
+}
+.g1{
+    background-color:white;
+    font-size: 20px;
     text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    /* box-shadow:0 2px 7px; */
 }
-.menu{
-    background-color: black;
-    color: white;
-    width: 200px;
-    height: 760px;
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
+    margin-top: 40px;
 }
- */
+.g2{
+    background-color:white;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
