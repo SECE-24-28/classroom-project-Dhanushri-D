@@ -20,14 +20,6 @@ nav{
     color:white;
     padding: 20px;
 }
-nav h2{
-    margin-top: 0;
-    font-size: 20px;
-}
-nav menu{
-    padding: 10px 5px;
-    font-size: 10px;
-}
 main{
     grid-area: main;
 }
@@ -35,17 +27,14 @@ main{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap:30px;
-    margin-top: 20px;
 }
 .g1{
     background-color:white;
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    font-weight: bold;
     border-radius: 10px;
-    /* box-shadow:0 2px 7px; */
-}
+} 
 .grid2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -59,3 +48,13 @@ main{
     padding: 20px;
     border-radius: 10px;
 }
+
+
+/* nav menu{
+    padding: 10px 5px;
+    font-size: 10px;
+} */
+ /* margin-top: 20px; */
+/* font-weight: bold; */
+/* box-shadow:0 2px 7px; */
+ 

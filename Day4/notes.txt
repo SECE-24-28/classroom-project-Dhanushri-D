@@ -1,0 +1,83 @@
+java script:
+    inside script tag. (internal)
+    shortest program empty program in js
+    loosly complied no data type needed
+global execution context:
+    2 phases:
+        execution: giving space with value undefined
+        memory: read aggain line by line, declare values
+
+        hoisting: 
+        var:
+            console.log(a)//undefined error
+            var a=10
+            //global scope
+            console.log(a)  this is hoisting
+
+        //es6
+        let:
+        //let const
+            console.log(a)//reference error
+            //this temporal dead zone 
+            let a=10
+            //block scope
+            //new memory is always created for if existing variable comme again
+            console.log(a)
+
+        const:
+        //in const while redeclare we get tpye error
+
+
+functins-> 5 types:
+    
+    1.named functions
+    if called before declaration we does not error 
+    //function declaration
+    function namedfun(){
+
+    }
+    //function call
+    namedfun();
+
+    2.function expression
+    if called before declaration we get "type error"(var)   "unreference error"(let)
+    //declaration
+    var funcExp = funtion(){
+
+    };
+    //call
+    funExp();
+
+    3.arrow function:
+    if called before reference error
+    //declaration
+    let arrow = () => {
+
+    };
+    //call
+    arrow();
+    
+    4.callback function(has no name) and 5.IIFE immediately invoked function expression
+    (callbackfun () => {
+
+    })();
+Template literals:
+    `${}`
+
+To know datatype:
+    console.log(typeof variable)
+
++ operator used  -> concatenation
+other operator used mathematically
+
+in js array is object type
+NaN data type is number
+
+truthly vales:
+ use filter()
+    based on condition
+
+reduce: 
+    return single value
+    pass 3 parameters
+        accumulater default 1
