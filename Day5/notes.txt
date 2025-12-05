@@ -1,0 +1,20 @@
+selector:
+    5 types
+
+difference between diff and async
+
+load js files
+
+Read and write operations:
+    read:
+    textContent()
+
+    write: for content part
+    var.textContent=""
+
+    to write a tag inside another tag:(insert tag)
+    div.innerHTML="<p>para<\p>"
+
+add/remove/toggle
+
+list from js
