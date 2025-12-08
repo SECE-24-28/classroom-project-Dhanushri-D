@@ -1,0 +1,57 @@
+this:
+    this only work with var
+    refers to global variables
+    parent scopr
+
+in arrow function 'this' not work
+
+3 things are there : call apply bind:
+    bind: always return a function
+    apply: pass parameters inside array
+
+print all synchronous then asyn 
+
+ASYNCHRONOUS PROGRAMMING:
+    synchronous  -> op is ready to print at time of return
+    asynchronous -> blocky code
+        setTimeout has two things:
+            call back 
+            milliseconds
+
+callstack
+event loop -> check callstack is empty or not
+micro task queue -> high priority
+callback queue
+
+
+callback hell:
+    pyramid structure
+    nested callback
+
+to avvoid error "promises" is introdeuced
+
+
+react is a javascript library
+
+npx -v
+npx create-react-app my-app (without downloading)
+npm strat
+npm i ->to get back node modules again
+    if error occur -> npm audit fix --force
+
+
+
+npm create vite myapp2     vite is a tool
+npm run dev   (instead of npm start)
+
+
+
+REACT:
+->using virtual DOM(copy of real dom)
+    uses two algorithm:
+        diffing algorithm(check difference between virtual and real dom to which node to update)
+        reconcilation algorithm(update the  node)
+
+readme.md  -> has documentation
+package.json -> has dependencies and package (very important)
+public folder -> index.html important

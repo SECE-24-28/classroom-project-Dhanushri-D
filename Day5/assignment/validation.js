@@ -5,7 +5,20 @@ form.addEventListener("submit", (e) => {
   let course = document.querySelector("#course");
   let rating = document.querySelector("#rating");
   let feedback = document.querySelector("#feedback");
-  console.log(name.value, course.value, rating.value, feedback.value);
+  // console.log(name.value, course.value, rating.value, feedback.value);
+
+  if(name.value === ""){
+        alert("Name field is required");
+        return; //must, then only other part will work
+    }
+    if(feedback.value.length < 5){
+        alert("Feedback must be atleast 5 characters long");
+        return;
+    }
+    let result=document.querySelector("#output");
+    result.innerHTML= `<div><h3 class="aa">Thank you,${name.value},for feedback.</h3>
+    <p class="bb">Your feedback is ${feedback.value}</p></div>`;
+    form.reset();
 
   // if (name.value === "") {
   //   alert("Name field is required");
@@ -15,8 +28,8 @@ form.addEventListener("submit", (e) => {
   //   alert("Feedback must be at least 5 characters long");
   //   return;
   // }
-  let result = document.querySelector("#output");
-  result.innerHTML += `<div class="q"><h3 class="aa">Thank you, ${name.value}, for your feedback!</h3>
-  <p class="bb">Your feedback: ${feedback.value}</p></div>`;
-  form.reset();
+  // let result = document.querySelector("#output");
+  // result.innerHTML += `<div class="q"><h3 class="aa">Thank you, ${name.value}, for your feedback!</h3>
+  // <p class="bb">Your feedback: ${feedback.value}</p></div>`;
+  // form.reset();
 });
